@@ -37,6 +37,21 @@
         "/consoleloggerparameters:NoSummary"
       ],
       "problemMatcher": "$msCompile"
+    },
+    {
+      "type": "dotnet",
+      "task": "watch API",
+      "file": "C:\\Users\\Marty\\Projects\\DatingApp\\API\\API.csproj",
+      "problemMatcher": [],
+      "label": "dotnet: watch API"
+    },
+    {
+      "type": "npm",
+      "script": "start",
+      "path": "client",
+      "problemMatcher": [],
+      "label": "npm: start - client",
+      "detail": "ng serve"
     }
   ]
 }
